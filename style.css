@@ -186,6 +186,12 @@ section{
 	border-radius: .5rem;
 	padding: .5rem;
 }
+
+.box-container .left-col .box a span{
+	display: flex;
+	justify-content: flex-end;
+}
+
 .box-container .left-col .box a:hover{
 	border-left: .3rem solid var(--green);
 	text-decoration: none;
