@@ -306,7 +306,10 @@ section{
 
 /* --------------Product section end-------------- */
 
-
+.container .box-container{
+	background: url('images/1-2.png');
+	padding: 8.5rem;
+}
 
 /* --------------brands section start-------------- */
 
@@ -323,4 +326,13 @@ section{
 	height: 100px;
 }
 
+
 /* --------------brands section end-------------- */
+
+/* mobil section start */
+
+.mobil .box-container .box{
+	flex: 1 1 20rem;
+}
+
+/* mobil section end */
