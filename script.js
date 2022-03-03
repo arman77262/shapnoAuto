@@ -12,3 +12,9 @@ window.onscroll= () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
+
+
+/* owl carusal start */
+
+
+/* owl carusal end */

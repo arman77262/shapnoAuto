@@ -305,3 +305,18 @@ section{
 }
 
 /* --------------Product section end-------------- */
+
+
+
+/* --------------brands section start-------------- */
+
+.brands .title{
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 4rem;
+	text-align: center;
+	color: var(--red);
+	text-transform: uppercase;
+}
+
+/* --------------brands section end-------------- */
