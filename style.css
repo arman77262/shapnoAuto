@@ -342,3 +342,36 @@ section{
 }
 
 /* mobil section end */
+
+
+
+/* ---------footer section start--------- */
+
+.footer{
+	background: #fff;
+	margin-top: 3rem;
+}
+
+.footer .wrapper{
+	padding-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	padding-bottom: 5rem;
+	border-bottom: .1rem solid rgba(0,0,0,.1);
+}
+
+.footer .wrapper .feature-box{
+	flex: 1 1 30rem;
+	display: flex;
+	align-items: center;
+}
+.footer .wrapper .feature-box i{
+	width: 7rem;
+	height: 7rem;
+	border: .1rem solid var(--blue);
+	text-align: center;
+	line-height: 7rem;
+	font-size: 2rem;
+}
+/* ---------footer section end--------- */
