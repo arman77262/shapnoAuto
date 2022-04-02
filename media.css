@@ -77,6 +77,19 @@
         height: 100%;
         padding: 1.5rem;
     }
+
+    .footer .box-container .box .icons a{
+        font-size: 1.5rem;
+    }
+
+    .cradit, .cradit span{
+        font-size: 1rem;
+    }
+
+    .footer .box-container .box iframe{
+        width: 250px;
+        height: 200px;
+    }
     
 }
 

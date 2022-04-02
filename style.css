@@ -373,5 +373,70 @@ section{
 	text-align: center;
 	line-height: 7rem;
 	font-size: 2rem;
+	border-radius: 50%;
+	color: var(--blue);
+	margin-right: 1.5rem;
 }
+.footer .wrapper .feature-box  .content h3{
+	font-size: 1.5rem;
+	color: var(--blue);
+	padding-bottom: .5rem;
+	font-weight: bold;
+}
+.footer .wrapper .feature-box  .content p{
+	font-size: 1.3rem;
+	color: #333;
+	font-weight: 500;
+}
+.footer .box-container{
+	padding-top: 5rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+	justify-content: space-between;
+}
+.footer .box-container .box{
+	flex-basis: 1 1 30rem;
+	padding: 0 3rem;
+}
+.footer .box-container .box .icons{
+	margin-top: 2.5rem;
+}
+.footer .box-container .box .icons a{
+	display: block;
+	padding: .4rem 0;
+	font-size: 1.3rem;
+	color: #808080;
+}
+.footer .box-container .box .icons-1 a:nth-child(2){
+	color: var(--teal);
+	text-transform: none;
+}
+.footer .box-container .box .icons-1 a:nth-child(1){
+	color: var(--blue);
+}
+.footer .box-container .box .icons i{
+	margin-right: .5rem;
+}
+.footer .box-container .box img{
+	width: 13rem;
+	margin-right: 1rem;
+	cursor: pointer;
+}
+.cradit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	color: #fff;
+	background: var(--teal);
+	padding: 3rem 0;
+	letter-spacing: .1rem;
+}
+.cradit span{
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0 1rem;
+}
+
 /* ---------footer section end--------- */
