@@ -40,6 +40,33 @@
     .box-container .left-col .box a{
         justify-content: space-between;
     }
+
+    /*about*/
+
+    .about .box-container .right-col{
+        margin-left: 0;
+    }
+
+    .about .box-container .right-col .box,
+    .about .box-container .right-col .heading-2,
+    .service .box-container .box{
+        text-align: center;
+    }
+
+    .services-1{
+        flex-direction: column;
+    }
+    .service-2{
+        flex-direction: column;
+    }
+    .about .box-container .left-col img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .team .box-container .box{
+        flex-direction: column;
+    }
 }
 
 
@@ -55,6 +82,10 @@
     }
     .box-container .right-col{
         margin-top: 2rem;
+    }
+
+    .team .box-container .box{
+        flex-direction: column;
     }
 }
 
@@ -89,6 +120,10 @@
     .footer .box-container .box iframe{
         width: 250px;
         height: 200px;
+    }
+
+    .team .box-container .box{
+        flex-direction: column;
     }
     
 }
